@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Meu primeiro programa...</title>
+
+  <style>
+    body{
+      background-color: rgb(0, 110, 255);
+      color: white;
+      font: normal 20pt Arial;
+    }
+    h1 {
+      color: yellow;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>Olá, mundo!</h1>
+  <p>Já me livrei da maldição</p>
+  <script>
+    //var n1 = window.prompt('Digite um numero: ')
+    //var n2 = window.prompt('Digite outro numero: ')
+    //var s = n1 + n2
+    //window.alert('A soma dos valores é: ' + s) 
+    // Assim o Javascript define o s como string e concatena os valores recebidos
+
+    // No exemplo abaixo o Javascript soma os valores inteiros, ex: n1=2 + n2=3 s=5, ex: n1=2.5 + n2=6 s=8
+    //var n1 = Number.parseInt(window.prompt('Digite um numero: '))
+    //var n2 = Number.parseInt(window.prompt('Digite outro numero: '))
+    //var s = n1 + n2
+    //window.alert('A soma dos valores é: ' + s)
+
+    // Neste exemplo é somado os valores nas casas decimais
+    //var n1 = Number.parseFloat(window.prompt('Digite um numero: '))
+    //var n2 = Number.parseFloat(window.prompt('Digite outro numero: '))
+    //var s = n1 + n2
+    //window.alert('A soma dos valores é: ' + s)
+
+    // Neste exemplo o Javascript considera os valores como number independente de serem inteiro ou float e soma
+    var n1 = Number(window.prompt('Digite um numero: '))
+    var n2 = Number(window.prompt('Digite outro numero: '))
+    var s = n1 + n2
+    window.alert('A soma dos valores é: ' + s)
+  </script>
+</body>
+</html>
