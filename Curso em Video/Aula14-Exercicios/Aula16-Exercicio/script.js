@@ -28,7 +28,7 @@ function contar() {
 
             // Contagem crescente
             for (let c = ini; c <= fi; c += pas) {
-                resultado.innerHTML += `${c} \u{1F449}`
+                resultado.innerHTML += `${c} \u{1F449}` //emoji: http://unicode.org/emoji/charts/full-emoji-list.html
             }
             
         } else {
