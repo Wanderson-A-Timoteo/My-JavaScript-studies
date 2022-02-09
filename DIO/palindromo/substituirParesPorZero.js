@@ -20,4 +20,4 @@ function substituirPares(array) {
 }
 
 let arr = [1, 3, 4, 6, 8, 9, 10, 33, 44, 50];
-console.log(substituirPares(false));
+console.log(substituirPares([arr]));
