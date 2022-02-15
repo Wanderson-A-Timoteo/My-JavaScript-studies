@@ -13,7 +13,7 @@ function somaNumeros1(arr) {
   });
 }
 
-console.log(somaNumeros1(arr)); // Retorna apenas a soma entre 1 + 2 = 3, sem
+console.log(somaNumeros1(arr)); // Retorna apenas a soma entre 1 + 2 = 3
 
 function somaNumeros(arr) {
   return arr.reduce(function (prev, current) {
